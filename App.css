@@ -1,0 +1,88 @@
+body {
+  /* background: rgb(0,6,105);
+  background: linear-gradient(90deg, rgba(0,6,105,1) 0%, rgba(20,0,148,1) 35%, rgba(0,212,255,1) 100%); */
+  background-image: url("./bg-valorant.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.formContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer form {
+  background-color: #fff9f9;
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+  box-shadow: 10px 10px 45px -16px #000000;
+  border-radius: 20px;
+}
+
+.uiForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formField input {
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+}
+
+.formField input:focus {
+  /* outline: none; */
+}
+
+.formField label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+button {
+  background-color: #0e528d;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #ffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #044278;
+}
+
+.errorMsg {
+  color: #ff0000;
+  margin: 0px;
+  align-self: flex-start;
+}
+
+.magOK {
+  color: #008000;
+  margin-top: 15px;
+}
+
